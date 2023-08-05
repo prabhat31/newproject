@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="cal.css">
+  <title> Calculator</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <div class="screen" id="display">0</div>
+    <button class="number" id="clear">C</button>
+    <button class="number" id="backspace">←</button>
+    <button class="number" onclick="handleNumberClick('7')">7</button>
+    <button class="number" onclick="handleNumberClick('8')">8</button>
+    <button class="number" onclick="handleNumberClick('9')">9</button>
+    <button class="number" onclick="handleOperatorClick('/')">/</button>
+    <button class="number" onclick="handleNumberClick('4')">4</button>
+    <button class="number" onclick="handleNumberClick('5')">5</button>
+    <button class="number" onclick="handleNumberClick('6')">6</button>
+    <button class="number" onclick="handleOperatorClick('*')">*</button>
+    <button class="number" onclick="handleNumberClick('1')">1</button>
+    <button class="number" onclick="handleNumberClick('2')">2</button>
+    <button class="number" onclick="handleNumberClick('3')">3</button>
+    <button class="number" onclick="handleOperatorClick('-')">-</button>
+    <button class="number" onclick="handleNumberClick('0')">0</button>
+    <button class="number" onclick="handleNumberClick('.')">.</button>
+    <button class="number" onclick="handleOperatorClick('+')">+</button>
+    <button class="number" onclick="calculate()">=</button>
+  </div>
+  <!--<div class="credit"> copyright @ 2023 by <span>Prabhat Kumar</span> </div> -->
+
+
+
+
+  <script src="cal.js"></script>
+</body>
+</html>
